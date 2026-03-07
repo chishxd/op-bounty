@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
 import random
 
@@ -78,8 +78,49 @@ def generate_bounty_data(name, photo_url):
     }
 
 
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+@app.route('/create-bounty', methods=['POST'])
+def create_bounty():
+    name = request.form.get('name')
+    photo_url = request.form.get('photo_url')
+
+    bounty_data = generate_bounty_data(name, photo_url)
+
+    conn = sqlite3.connect('bounties.db')
+    cursor = conn.cursor()
+    cursor.execute('''
+        INSERT INTO bounties (name, photo_url, crime, bounty_amount, tier)
+        VALUES (?,?,?,?,?)    
+    ''',( bounty_data['name'], bounty_data['photo_url'], bounty_data['crime'], bounty_data['bounty'], bounty_data['tier']))
+    conn.commit()
+
+    bounty_id=cursor.lastrowid
+    conn.close()
+
+    return redirect(url_for('show_poster', poster_id=bounty_id))
 
 
+@app.route('/poster/<int:poster_id>')
+def show_poster(poster_id):
+    conn = sqlite3.connect('bounties.db')
+    cursor = conn.cursor()
+    cursor.execute('SELECT * FROM bounties WHERE id = ?', (poster_id,))
+    bounty = cursor.fetchone()
+    conn.close()
 
+    if bounty is None:
+        return "Bounty not found!", 404
+    
+    bounty_data = {
+        'id': bounty[0],
+        'name': bounty[1],
+        'photo_url': bounty[2],
+        'crime': bounty[3],
+        'bounty': bounty[4],
+        'tier': bounty[5]
+    }
 
-
+    return render_template('poster.html', bounty= bounty_data)
