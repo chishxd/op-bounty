@@ -52,7 +52,7 @@ def init_db():
             name TEXT NOT NULL,
             photo_url TEXT NOT NULL,
             crime TEXT NOT NULL,
-            bounty_amount TEXT NOT NULL,
+            bounty_amount INTEGER NOT NULL,
             tier TEXT NOT NULL
         )
     '''
@@ -124,3 +124,8 @@ def show_poster(poster_id):
     }
 
     return render_template('poster.html', bounty= bounty_data)
+
+
+if __name__ == "__main__":
+    init_db()
+    app.run(debug=True)

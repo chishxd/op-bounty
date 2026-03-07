@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{bounty.name}} - Wanted Poster</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body class="poster-body">
         <div class="poster">
-            <div class="wanted-header">WANTED</div>
+            <div class="wanted-spacer" aria-hidden="true"></div>
             <div class="photo-container">
                 <img src="{{bounty.photo_url}}" alt="{{bounty.name}}"
                     onerror="this.src='https://via.placeholder.com/400x500?text=Photo+Not+Found'">
@@ -16,7 +17,7 @@
             <div class="crime-label">Crime:</div>
             <div class="crime">{{ bounty.crime }}</div>
             <div class="bounty-label">Bounty:</div>
-            <div class="bounty">฿{{ "{:,}".format(bounty.bounty)}}</div>
+            <div class="bounty">฿{{ "{:,}".format(bounty.bounty|int)}}</div>
             <div class="footer">DEAD OR ALIVE</div>
         </div>
         <div class="actions">
