@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{bounty.name}} - Wanted Poster</title>
+</head>
+<body class="poster-body">
+        <div class="poster">
+            <div class="wanted-header">WANTED</div>
+            <div class="photo-container">
+                <img src="{{bounty.photo_url}}" alt="{{bounty.name}}"
+                    onerror="this.src='https://via.placeholder.com/400x500?text=Photo+Not+Found'">
+            </div>
+            <div class="name">{{ bounty.name }}</div>
+            <div class="crime-label">Crime:</div>
+            <div class="crime">{{ bounty.crime }}</div>
+            <div class="bounty-label">Bounty:</div>
+            <div class="bounty">฿{{ "{:,}".format(bounty.bounty)}}</div>
+            <div class="footer">DEAD OR ALIVE</div>
+        </div>
+        <div class="actions">
+            <a href="/" class="btn">Create Another Poster</a>
+        </div>
+</body>
+</html>
