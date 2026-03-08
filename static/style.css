@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
 
 
 body {
@@ -86,6 +88,7 @@ button:hover {
 
 .poster {
     width: 400px;
+    font-family: "Bellefair", serif;
     background: #f4e8d0;
     background-image: url("https://i.pinimg.com/736x/22/ef/7e/22ef7eba94bc378be084e59e72eb7b25.jpg");
     background-size: cover;
