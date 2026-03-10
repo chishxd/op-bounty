@@ -1,8 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
+from pathlib import Path
 import random
 
 app = Flask(__name__)
+
+BASE_DIR = Path(__file__).resolve().parent
+DB_PATH = BASE_DIR / "bounties.db"
 
 low_crimes = [
     "Stole meat from a Marine cafeteria",
@@ -42,7 +46,7 @@ crime_tiers = {
 }
 
 def init_db():
-    conn = sqlite3.connect('bounties.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
     cursor.execute(
@@ -89,7 +93,7 @@ def create_bounty():
 
     bounty_data = generate_bounty_data(name, photo_url)
 
-    conn = sqlite3.connect('bounties.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute('''
         INSERT INTO bounties (name, photo_url, crime, bounty_amount, tier)
@@ -105,7 +109,7 @@ def create_bounty():
 
 @app.route('/poster/<int:poster_id>')
 def show_poster(poster_id):
-    conn = sqlite3.connect('bounties.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute('SELECT * FROM bounties WHERE id = ?', (poster_id,))
     bounty = cursor.fetchone()
