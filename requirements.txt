@@ -1,325 +1,80 @@
-aiodns==3.6.1
-aiohappyeyeballs==2.6.1
-aiohttp==3.13.3
-aiosignal==1.4.0
-alabaster==1.0.0
-annotated-doc==0.0.4
-annotated-types==0.7.0
-anyio==4.12.1
-appdirs==1.4.4
-argcomplete==3.6.3
-argon2-cffi==23.1.0
-argon2-cffi-bindings==21.2.0
-arrow==1.3.0
-asttokens==3.0.0
-async-lru==2.0.5
-attrs==25.4.0
-Authlib==1.4.0
-babel==2.17.0
-backoff==2.2.1
-Beaker==1.12.1
-beautifulsoup4==4.14.3
-bleach==6.2.0
-blivet==3.12.1
-blivet-gui==2.6.0
-blosc2==3.8.0
-bodhi-client==25.11.3
-boto3==1.42.56
-botocore==1.42.56
-Bottleneck==1.6.0
-Brlapi==0.8.7
-Brotli==1.2.0
-build==1.3.0
-cachetools==5.5.2
-CCColUtils==1.5
-certifi==2025.7.9
-cffi==2.0.0
-charset-normalizer==3.4.3
-click==8.3.1
-cockpit @ file:///builddir/build/BUILD/cockpit-357-build/cockpit-357/tmp/wheel/cockpit-357-py3-none-any.whl#sha256=474f6d2f07f5e1fc6d7a1714574c3620ecb9769fd645f220ab4b2314f02dc195
-colored==2.2.4
-comm==0.2.3
-construct==2.10.70
-contourpy==1.3.3
-crypt_r==3.13.1
-cryptography==45.0.4
-cssselect==1.3.0
-cupshelpers==1.0
-cycler==0.11.0
-Cython==3.1.3
-dasbus==1.7
-dbus-python==1.4.0
-dbus_next==0.2.3
-decorator==5.2.1
-defusedxml==0.7.1
-distro==1.9.0
-dnf==4.24.0
-dnspython==2.8.0
-docutils==0.22.4
-email-validator==2.3.0
-et_xmlfile==2.0.0
-evdev==1.9.3
-executing==2.2.1
-fastjsonschema==2.21.2
-fedora-review==0.11.0
-fedora-third-party==0.10
-fedpkg==1.47
-fedrq==1.5.0
-file-magic==0.4.0
-fonttools==4.61.0
-fqdn==1.5.1
-frozenlist==1.8.0
-fsspec==2026.1.0
-gbinder-python==1.3.0
-gcsfs==2025.9.0
-gi-docgen==2026.1
-gitdb==4.0.11
-GitPython==3.1.46
-google-api-core==2.27.0
-google-auth==2.45.0
-google-auth-oauthlib==1.2.3
-google-cloud-core==2.3.3
-google-cloud-storage==2.14.0
-google-crc32c==1.8.0
-google-resumable-media==2.8.0
-googleapis-common-protos==1.63.0
-greenlet==3.1.1
-grpcio==1.48.4
-grpcio-status==1.48.4
-gssapi==1.7.3
-h11==0.16.0
-html5lib==1.1
-httpcore==1.0.9
-httpx==0.28.1
-humanize==4.13.0
-i3ipc==2.2.1
-idna==3.10
-imagesize==1.4.1
-initial-setup==0.3.101
-inkex==1.4.0
-ipykernel==6.29.3
-ipython==8.37.0
-iso639==0.1.4
-isoduration==20.11.0
-jedi==0.19.2
-Jinja2==3.1.6
-jmespath==1.0.1
-json5==0.12.1
-jsonpointer==2.4
-jsonschema==4.23.0
-jsonschema-specifications==2024.10.1
-jupyter-events==0.12.0
-jupyter-lsp==2.3.0
-jupyter_client==8.6.1
-jupyter_core==5.8.1
-jupyter_server==2.17.0
-jupyter_server_terminals==0.5.3
-jupyterlab==4.4.10
-jupyterlab_pygments==0.3.0
-jupyterlab_server==2.27.3
-kiwisolver==1.4.9
-koji==1.35.3
-krb5==0.7.1
-langtable==0.0.69
-lark==1.2.2
-libcomps==0.1.23
-libdnf==0.75.0
-libdnf5==5.2.18.0
-libvirt-python==11.6.0
-louis==3.33.0
-lutris==0.5.22
-lxml==6.0.1
-Mako==1.2.3
-Markdown==3.10
-markdown-it-py==4.0.0
-MarkupSafe==3.0.3
-matplotlib==3.10.8
-matplotlib-inline==0.1.7
-mdurl==0.1.2
-mercurial==7.1.1
-meson==1.8.5
-mistune==3.1.3
-moddb==0.12.0
-msgpack==1.1.0
-multidict==6.6.4
-munch==4.0.0
-mutagen==1.47.0
-nbclient==0.10.2
-nbconvert==7.16.4
-nbformat==5.10.4
-ndindex==1.10.0
-nest_asyncio==1.6.0
-netifaces==0.11.0
-nftables==0.1
-notebook==7.4.5
-notebook_shim==0.2.4
-numexpr==2.12.1
-numpy==2.3.5
-nwg-displays==0.3.28
-nwg-panel==0.10.13
-oauthlib==3.2.2
-odfpy==1.4.1
-olefile==0.47
-openidc-client==0.7.0
-openpyxl==3.1.5
-packaging==25.0
-pandas==2.3.3
-pandocfilters==1.5.1
-parso==0.8.5
-Paste==3.10.1
-perf==0.1
-pexpect==4.9.0
-pid==3.0.4
-pillow==11.3.0
-pipx==1.8.0
-platformdirs==4.2.2
-ply==3.11
-pooch==1.9.0
-productmd==1.50
-progressbar2==4.5.0
-prometheus_client==0.23.0
-prompt_toolkit==3.0.41
-propcache==0.4.1
-proto-plus==1.22.3
-protobuf==3.19.6
-psutil==7.0.0
-psycopg2==2.9.10
-ptyprocess==0.7.0
-pure_eval==0.2.3
-pwquality==1.4.5
-py-cpuinfo==9.0.0
-pyarrow==20.0.0
-pyasn1==0.6.2
-pyasn1_modules==0.4.1
-PyAudio==0.2.13
-pybeam==0.8.1
-pycairo==1.28.0
-pycares==4.10.0
-pycparser==2.22
-pycrypto==2.6.1
-pycryptodomex==3.23.0
-pycups==2.0.4
-pycurl==7.45.6
-pydantic==2.12.5
-pydantic_core==2.41.5
-pyenchant==3.2.2
-pygdbmi==0.11.0.0
-pygit2==1.18.2
-Pygments==2.19.2
-PyGObject==3.54.5
-pyinotify==0.9.6
-pykickstart @ file:///builddir/build/BUILD/pykickstart-3.66-build/pykickstart-3.66
-PyMySQL==1.1.2
-pyOpenSSL==25.1.0
-pyparsing==3.1.2
-pyparted==3.13.0
-pypresence==4.3.0
-pyproj==3.7.2
-pyproject_hooks==1.2.0
-PyQt5==5.15.12.dev2507081429
-PyQt5_sip==12.17.1
-pyquery==2.0.1
-pyroute2==0.7.12
-pyserial==3.5
-PySide6==6.10.2
-PySocks==1.7.1
-pyspnego==0.11.2
-python-augeas==1.2.0
-python-bugzilla==3.3.0
-python-dateutil==2.9.0.post0
-python-json-logger==3.3.0
-python-linux-procfs==0.7.3
-python-meh==0.52
-python-pam==2.0.2
-python-utils==3.9.1
-python-xlib==0.33
-pytz==2026.1
-pyudev==0.24.3
-pyxdg==0.28
-PyYAML==6.0.2
-pyynl @ file:///builddir/build/BUILD/kernel-6.18.16-build/kernel-6.18.16/linux-6.18.16-200.fc43.x86_64/tools/net/ynl
-pyzmq==27.1.0
-QtPy==2.4.3
-RapidFuzz==3.12.2
-referencing==0.36.2
-regex==2026.2.28
-requests==2.32.5
-requests-file==2.0.0
-requests-ftp==0.3.1
-requests-gssapi==1.4.0
-requests-kerberos==0.15.0
-requests-oauthlib==1.3.1
-rfc3339_validator==0.1.4
-rfc3986_validator==0.1.1
-rich==14.3.3
-roman-numerals==4.1.0
-roman-numerals-py==3.1.0
-rpds-py==0.27.0
-rpkg==1.69
-rpm==6.0.1
-rpmautospec==0.8.3
-rpmautospec-core==0.1.5
-rpmlint==2.8.0
-rsa==4.9
-s3transfer==0.16.0
-scipy==1.16.2
-scour==0.38.2
-selinux @ file:///builddir/build/BUILD/libselinux-3.9-build/libselinux-3.9/src
-Send2Trash==1.8.3
-sentry-sdk==2.35.0
-sepolicy @ file:///builddir/build/BUILD/policycoreutils-3.9-build/selinux-3.9/python/sepolicy
-setools==4.6.0
-setproctitle==1.3.7
-setroubleshoot @ file:///builddir/build/BUILD/setroubleshoot-3.3.36-build/setroubleshoot-3.3.36/src
-setuptools==78.1.1
-shellingham==1.5.4
-shiboken6==6.10.2
-shiboken6-generator==6.10.2
-simpleaudio==1.0.4
-simpleline==1.9.0
-six==1.17.0
-smartypants==2.0.1
-smmap==5.0.1
-sniffio==1.3.1
-snowballstemmer==3.0.1
-sos==4.11.0
-soupsieve==2.8
-specfile==0.39.1
--e git+ssh://git@github.com/chishxd/sphinx.git@232a48c267f429d6cf95e18478bf33b427dc5c46#egg=Sphinx
-sphinxcontrib-applehelp==2.0.0
-sphinxcontrib-devhelp==2.0.0
-sphinxcontrib-htmlhelp==2.1.0
-sphinxcontrib-jsmath==1.0.1
-sphinxcontrib-qthelp==2.0.0
-sphinxcontrib-serializinghtml==2.0.0
-SQLAlchemy==2.0.46
-stack_data==0.6.3
-straight.plugin==1.5.0
-systemd-python==235
-tables==3.10.2
-tabulate==0.9.0
-templated-dictionary==1.6
-terminado==0.18.1
-tinycss2==1.5.1
-tomli_w==1.2.0
-tornado==6.5.2
-traitlets==5.14.3
-typing-inspection==0.4.2
-typing_extensions==4.15.0
-typogrify==2.0.7
-uri-template==1.3.0
-urlgrabber==4.1.0
-urllib3==2.6.3
-userpath==1.9.2
-wcwidth==0.2.13
-webcolors==24.11.1
-webencodings==0.5.1
-websocket-client==1.8.0
-websockets==15.0.1
-xarray==2025.12.0
-xkbregistry==0.3
-xlrd==2.0.1
-xlsxwriter==3.2.9
-yarl==1.22.0
-yt-dlp==2026.3.3
-zstandard==0.25.0
+# This file was autogenerated by uv via the following command:
+#    uv export -o requirements.txt
+blinker==1.9.0 \
+    --hash=sha256:b4ce2265a7abece45e7cc896e98dbebe6cead56bcf805a3d23136d145f5445bf \
+    --hash=sha256:ba0efaa9080b619ff2f3459d1d500c57bddea4a6b424b60a91141db6fd2f08bc
+    # via flask
+click==8.3.1 \
+    --hash=sha256:12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a \
+    --hash=sha256:981153a64e25f12d547d3426c367a4857371575ee7ad18df2a6183ab0545b2a6
+    # via flask
+colorama==0.4.6 ; sys_platform == 'win32' \
+    --hash=sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44 \
+    --hash=sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6
+    # via click
+flask==3.1.3 \
+    --hash=sha256:0ef0e52b8a9cd932855379197dd8f94047b359ca0a78695144304cb45f87c9eb \
+    --hash=sha256:f4bcbefc124291925f1a26446da31a5178f9483862233b23c0c96a20701f670c
+    # via op-bounty
+itsdangerous==2.2.0 \
+    --hash=sha256:c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef \
+    --hash=sha256:e0050c0b7da1eea53ffaf149c0cfbb5c6e2e2b69c4bef22c81fa6eb73e5f6173
+    # via flask
+jinja2==3.1.6 \
+    --hash=sha256:0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d \
+    --hash=sha256:85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67
+    # via flask
+markupsafe==3.0.3 \
+    --hash=sha256:0eb9ff8191e8498cca014656ae6b8d61f39da5f95b488805da4bb029cccbfbaf \
+    --hash=sha256:1085e7fbddd3be5f89cc898938f42c0b3c711fdcb37d75221de2666af647c175 \
+    --hash=sha256:116bb52f642a37c115f517494ea5feb03889e04df47eeff5b130b1808ce7c219 \
+    --hash=sha256:12c63dfb4a98206f045aa9563db46507995f7ef6d83b2f68eda65c307c6829eb \
+    --hash=sha256:133a43e73a802c5562be9bbcd03d090aa5a1fe899db609c29e8c8d815c5f6de6 \
+    --hash=sha256:1353ef0c1b138e1907ae78e2f6c63ff67501122006b0f9abad68fda5f4ffc6ab \
+    --hash=sha256:1b4b79e8ebf6b55351f0d91fe80f893b4743f104bff22e90697db1590e47a218 \
+    --hash=sha256:1b52b4fb9df4eb9ae465f8d0c228a00624de2334f216f178a995ccdcf82c4634 \
+    --hash=sha256:218551f6df4868a8d527e3062d0fb968682fe92054e89978594c28e642c43a73 \
+    --hash=sha256:2713baf880df847f2bece4230d4d094280f4e67b1e813eec43b4c0e144a34ffe \
+    --hash=sha256:32001d6a8fc98c8cb5c947787c5d08b0a50663d139f1305bac5885d98d9b40fa \
+    --hash=sha256:3524b778fe5cfb3452a09d31e7b5adefeea8c5be1d43c4f810ba09f2ceb29d37 \
+    --hash=sha256:457a69a9577064c05a97c41f4e65148652db078a3a509039e64d3467b9e7ef97 \
+    --hash=sha256:4e885a3d1efa2eadc93c894a21770e4bc67899e3543680313b09f139e149ab19 \
+    --hash=sha256:4faffd047e07c38848ce017e8725090413cd80cbc23d86e55c587bf979e579c9 \
+    --hash=sha256:509fa21c6deb7a7a273d629cf5ec029bc209d1a51178615ddf718f5918992ab9 \
+    --hash=sha256:5678211cb9333a6468fb8d8be0305520aa073f50d17f089b5b4b477ea6e67fdc \
+    --hash=sha256:5a7d5dc5140555cf21a6fefbdbf8723f06fcd2f63ef108f2854de715e4422cb4 \
+    --hash=sha256:69c0b73548bc525c8cb9a251cddf1931d1db4d2258e9599c28c07ef3580ef354 \
+    --hash=sha256:722695808f4b6457b320fdc131280796bdceb04ab50fe1795cd540799ebe1698 \
+    --hash=sha256:729586769a26dbceff69f7a7dbbf59ab6572b99d94576a5592625d5b411576b9 \
+    --hash=sha256:795e7751525cae078558e679d646ae45574b47ed6e7771863fcc079a6171a0fc \
+    --hash=sha256:7e68f88e5b8799aa49c85cd116c932a1ac15caaa3f5db09087854d218359e485 \
+    --hash=sha256:8485f406a96febb5140bfeca44a73e3ce5116b2501ac54fe953e488fb1d03b12 \
+    --hash=sha256:8709b08f4a89aa7586de0aadc8da56180242ee0ada3999749b183aa23df95025 \
+    --hash=sha256:8f71bc33915be5186016f675cd83a1e08523649b0e33efdb898db577ef5bb009 \
+    --hash=sha256:915c04ba3851909ce68ccc2b8e2cd691618c4dc4c4232fb7982bca3f41fd8c3d \
+    --hash=sha256:9a1abfdc021a164803f4d485104931fb8f8c1efd55bc6b748d2f5774e78b62c5 \
+    --hash=sha256:9b79b7a16f7fedff2495d684f2b59b0457c3b493778c9eed31111be64d58279f \
+    --hash=sha256:a4afe79fb3de0b7097d81da19090f4df4f8d3a2b3adaa8764138aac2e44f3af1 \
+    --hash=sha256:ad2cf8aa28b8c020ab2fc8287b0f823d0a7d8630784c31e9ee5edea20f406287 \
+    --hash=sha256:b8512a91625c9b3da6f127803b166b629725e68af71f8184ae7e7d54686a56d6 \
+    --hash=sha256:bdc919ead48f234740ad807933cdf545180bfbe9342c2bb451556db2ed958581 \
+    --hash=sha256:bdd37121970bfd8be76c5fb069c7751683bdf373db1ed6c010162b2a130248ed \
+    --hash=sha256:c47a551199eb8eb2121d4f0f15ae0f923d31350ab9280078d1e5f12b249e0026 \
+    --hash=sha256:ccfcd093f13f0f0b7fdd0f198b90053bf7b2f02a3927a30e63f3ccc9df56b676 \
+    --hash=sha256:e1cf1972137e83c5d4c136c43ced9ac51d0e124706ee1c8aa8532c1287fa8795 \
+    --hash=sha256:e56b7d45a839a697b5eb268c82a71bd8c7f6c94d6fd50c3d577fa39a9f1409f5 \
+    --hash=sha256:e8afc3f2ccfa24215f8cb28dcf43f0113ac3c37c2f0f0806d8c70e4228c5cf4d \
+    --hash=sha256:eaa9599de571d72e2daf60164784109f19978b327a3910d3e9de8c97b5b70cfe \
+    --hash=sha256:ec15a59cf5af7be74194f7ab02d0f59a62bdcf1a537677ce67a2537c9b87fcda \
+    --hash=sha256:f190daf01f13c72eac4efd5c430a8de82489d9cff23c364c3ea822545032993e \
+    --hash=sha256:f34c41761022dd093b4b6896d4810782ffbabe30f2d443ff5f083e0cbbb8c737 \
+    --hash=sha256:f3e98bb3798ead92273dc0e5fd0f31ade220f59a266ffd8a4f6065e0a3ce0523 \
+    --hash=sha256:fed51ac40f757d41b7c48425901843666a6677e3e8eb0abcff09e4ba6e664f50
+    # via
+    #   flask
+    #   jinja2
+    #   werkzeug
+werkzeug==3.1.6 \
+    --hash=sha256:210c6bede5a420a913956b4791a7f4d6843a43b6fcee4dfa08a65e93007d0d25 \
+    --hash=sha256:7ddf3357bb9564e407607f988f683d72038551200c704012bb9a4c523d42f131
+    # via flask
